@@ -37,4 +37,4 @@ for repo in repo_list:
     print('stars', stars)
 
     # add information as a row into the csv table
-f.writerow([developer, repo_name, stars])
+    f.writerow([developer, repo_name, stars])
